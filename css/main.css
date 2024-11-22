@@ -274,13 +274,15 @@ a:focus, button:focus, .btn:focus,
 /* ==========================================================================
    Header
 ========================================================================== */
-
 #navigation .navbar {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
     min-height: 0;
     margin-bottom: 0;
-    border: 0; 
+    border: 0;
     padding: 0;
-    position: relative;
 }
 
 #navigation .navbar:before {
@@ -291,7 +293,7 @@ a:focus, button:focus, .btn:focus,
     width: 100%;
     height: 30px;
     background-color: #fff;
-    z-index: -1;  
+    z-index: -1;
 }
 
 #navigation .navbar:after {
@@ -304,19 +306,23 @@ a:focus, button:focus, .btn:focus,
     border-right: 25px solid transparent;
     border-left: 25px solid transparent;
     border-top: 30px solid #fff;
-    z-index: -1;  
+    z-index: -1;
+}
+
+#navigation .navbar .container {
+    height: 90px;
+    display: grid;
+    grid-template-columns: 200px 1fr auto;
+    align-items: center;
+    gap: 20px;
 }
 
 #navigation .navbar-brand {
-    position: absolute;
-    top: 0;
-    left: 25%; /* Ajuste este valor conforme necessário */
-    z-index: 1;
-    margin-right: 0;
+    width: 150px;
 }
 
 #navigation .navbar-brand img {
-    max-width: 150px; /* Ajuste conforme necessário */
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -327,20 +333,15 @@ a:focus, button:focus, .btn:focus,
 }
 
 #navigation .navbar-collapse {
-    float: none;
-    width: 100%;
-    /* Remova display:flex para não interferir no colapso do menu */
-    /* display: flex; */
-    /* justify-content: center; */
+    justify-self: center;
 }
 
 #navigation .navbar-nav {
-    /* Remova display:flex para não interferir no colapso do menu */
-    /* display: flex; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin: 0;
-    padding: 0;
-    list-style: none;
-    /* align-items: center; */
+    transform: translateY(-17px); /* Aumentado de -10px para -12px */
 }
 
 #navigation .navbar-nav li {
@@ -374,12 +375,10 @@ a:focus, button:focus, .btn:focus,
 }
 
 #navigation .btn.btn-primary {
-    float: right;
-    padding-top: 5px;
-    padding-bottom: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
-    z-index: 1;
+    justify-self: end;
+    margin-left: auto;
+    padding: 8px 15px;
+    transform: translateY(-16px); /* Adicionado para alinhar com o menu */
 }
 
 #navigation .navbar-toggler {
@@ -387,27 +386,68 @@ a:focus, button:focus, .btn:focus,
 }
 
 @media (min-width: 992px) {
-    /* Estilos para telas maiores */
     #navigation .navbar-collapse {
         display: flex;
         justify-content: center;
     }
-
+    
     #navigation .navbar-nav {
         display: flex;
         align-items: center;
     }
 }
 
-/* Preserve os estilos existentes para o dropdown e mega menu */
+/* Dropdown CSS */
+ul.sub-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    list-style: none;
+    padding: 7px 0;
+    margin: 0;
+    min-width: 180px;
+    border-top: 1px solid #ed145b;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    display: none;
+    z-index: 999;
+}
 
+.nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    -moz-animation: fadeInUp 400ms;
+    -ms-animation: fadeInUp 400ms;
+    -o-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+}
 
-/* Mantenha os estilos existentes para o dropdown e mega menu */
+#navigation .navbar-nav li ul.sub-menu li a {
+    display: block;
+    color: #767676;
+    padding: 7px 0 7px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
 
-/* Mantenha os estilos existentes para o dropdown e mega menu */
-
-
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
 
 /*Dropdown CSS*/
 

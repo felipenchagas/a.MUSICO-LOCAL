@@ -50,7 +50,7 @@
   }
 }
 </script>
-
+<!-- Estilos do Modal e Formulário -->
 <!-- Canonical URL -->
 <link rel="canonical" href="https://felipenchagas.github.io/a.MUSICO-LOCAL/">
 
@@ -58,6 +58,7 @@
 <meta name="google-site-verification" content="seu_token_de_verificação_aqui">
 <meta name="bing-site-verification" content="seu_token_de_verificação_aqui">
 		<!-- CSS -->
+		<link rel="stylesheet" href="stylescontato.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">  
         <link rel="stylesheet" href="css/jplayer.css"> 
@@ -188,7 +189,6 @@
             <!-- Botão "Cadastre-se Agora!" -->
             <a href="#" class="btn btn-primary">Cadastre-se Agora!</a> 
 
-			
         </div><!-- container -->
     </div><!-- navbar -->                                
 </header><!-- Header --> 
@@ -586,6 +586,9 @@
     </div><!-- container -->
 </div><!-- gallery section -->
 
+
+
+
 <div class="about-section about bg-image section-padding before-after">
     <div class="section-title">
         <h1>Destaques</h1>
@@ -613,41 +616,178 @@
         </div><!-- container -->
     </div><!-- about content -->
 </div><!-- about section --> 
-<!--
+
 <div class="clients-section section-padding before-after bg-white">
     <div class="section-title">
         <h1>Apoie-nos</h1>
         <h2>Nossos Parceiros</h2>
     </div>
+ 
+<!-- Botão para abrir o modal -->
+<button id="openModalBtn" class="btn btn-primary">Fale Conosco</button>
+
+<!-- Modal do Formulário -->
+
+<!-- Seção de Contato -->
+<div class="contact-section before-after bg-white">
     <div class="container">
-        <div class="clients-slider">
-            <div class="client">
-                <img class="img-fluid" src="images/clients/1.png" alt="Parceiro 1" title="Parceiro 1">
-            </div>
-            <div class="client">
-                <img class="img-fluid" src="images/clients/2.png" alt="Parceiro 2" title="Parceiro 2">
-            </div>
-            <div class="client">
-                <img class="img-fluid" src="images/clients/3.png" alt="Parceiro 3" title="Parceiro 3">
-            </div>
-            <div class="client">
-                <img class="img-fluid" src="images/clients/4.png" alt="Parceiro 4" title="Parceiro 4">
-            </div>
-            <div class="client">
-                <img class="img-fluid" src="images/clients/1.png" alt="Parceiro 5" title="Parceiro 5">
-            </div>
-            <div class="client">
-                <img class="img-fluid" src="images/clients/2.png" alt="Parceiro 6" title="Parceiro 6">
-            </div>
-            <div class="client">
-                <img class="img-fluid" src="images/clients/3.png" alt="Parceiro 7" title="Parceiro 7">
-            </div>
-            <div class="client">
-                <img class="img-fluid" src="images/clients/4.png" alt="Parceiro 8" title="Parceiro 8">
-            </div>
+        <div class="section-title">
+            <h1>Contato</h1>
+            <h2>Fale Conosco</h2>
         </div>
+
+        <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form" method="POST" action="enviar.php" novalidate>
+                <!-- Campos de segurança -->
+                <div class="honeypot-field">
+                    <input type="text" name="honeypot" id="honeypot" tabindex="-1" autocomplete="off">
+                </div>
+                <input type="hidden" name="form_loaded_at" id="form_loaded_at" value="">
+
+                <!-- Nome -->
+                <div class="form-group">
+                    <label for="nome">Nome Completo*</label>
+                    <input 
+                        type="text" 
+                        id="nome" 
+                        name="nome" 
+                        required 
+                        pattern="[A-Za-zÀ-ÿ\s]+" 
+                        title="Por favor, insira apenas letras e espaços"
+                    >
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">E-mail*</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required 
+                        pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                        title="Por favor, insira um email válido"
+                    >
+                </div>
+
+                <!-- Telefone -->
+                <div class="form-group">
+                    <label for="telefone">Telefone*</label>
+                    <div class="row">
+                        <div class="col" style="flex: 0 0 80px;">
+                            <input 
+                                type="text" 
+                                id="ddd" 
+                                name="ddd" 
+                                placeholder="DDD" 
+                                maxlength="2" 
+                                required 
+                                pattern="\d{2}"
+                                title="DDD deve conter 2 números"
+                            >
+                        </div>
+                        <div class="col">
+                            <input 
+                                type="text" 
+                                id="telefone" 
+                                name="telefone" 
+                                placeholder="Número" 
+                                maxlength="9" 
+                                required 
+                                pattern="\d{9}"
+                                title="Telefone deve conter 9 números"
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Função -->
+                <div class="form-group">
+                    <label for="funcao">Função*</label>
+                    <select id="funcao" name="funcao" required>
+                        <option value="">Selecione sua função...</option>
+                        <option value="cantor">Cantor(a)</option>
+                        <option value="baterista">Baterista</option>
+                        <option value="banda">Banda</option>
+                        <option value="guitarrista">Guitarrista</option>
+                        <option value="baixista">Baixista</option>
+                        <option value="dj">DJ</option>
+                    </select>
+                </div>
+
+                <!-- Cidade e Estado -->
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="cidade">Cidade*</label>
+                            <input 
+                                type="text" 
+                                id="cidade" 
+                                name="cidade" 
+                                required 
+                                pattern="[A-Za-zÀ-ÿ\s]+"
+                                title="Por favor, insira apenas letras e espaços"
+                            >
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="estado">Estado*</label>
+                            <select id="estado" name="estado" required>
+                                <option value="">Selecione...</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Descrição -->
+                <div class="form-group">
+                    <label for="descricao">Detalhes ou Dúvidas*</label>
+                    <textarea 
+                        id="descricao" 
+                        name="descricao" 
+                        rows="4" 
+                        required 
+                        minlength="10"
+                        title="Por favor, forneça uma descrição com pelo menos 10 caracteres"
+                    ></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        
     </div>
-</div>clients section -->
+</div>
+    </div>
+</div>
 
 <div class="shop-section section-padding before bg-image">
     <div class="section-title">

@@ -10732,7 +10732,7 @@ function(t, e, i) {
     }
     ,
     jQuery(i).ready((function() {
-        t.getScript("//www.youtube.com/iframe_api")
+        t.getScript("")
     }
     ))
 }(jQuery, window, document),
@@ -10761,7 +10761,7 @@ function(t) {
             embedVideo: function(t, e, i) {
                 i = e / 16 * 9;
                 var n = t.match(/=[\w-]{11}/)[0].replace(/=/, "");
-                return '<iframe width="' + e + '" height="' + i + '" src="' + window.location.protocol + "//www.youtube.com/embed/" + n + '?html5=1" class="youtube-player" allowfullscreen></iframe>'
+                return ''
             },
             smoothScr: function() {
                 var e;

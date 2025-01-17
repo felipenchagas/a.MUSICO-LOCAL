@@ -51,7 +51,7 @@
 			var that = this;
 			var body = $("body");
 			var debugOutput = ($("body").data('jsdebug'))? 1 : 0;
-			body.append('<output id="kentha-elementor-PerformanceCheck" style="position: fixed;bottom: 0px;left: auto; right:0;padding: 0 2px;opacity: '+debugOutput+';background:black;color:white;z-index:100; font-size: 10px;"></output>');
+			body.append('');
 			var $out = $('#kentha-elementor-PerformanceCheck');
 			that.countFPSf = (function () {
 			  var lastLoop = (new Date()).getMilliseconds();

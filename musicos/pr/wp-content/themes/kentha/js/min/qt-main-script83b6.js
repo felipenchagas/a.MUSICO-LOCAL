@@ -11530,7 +11530,7 @@ function(t) {
             },
             newIcons: function() {},
             initializeAfterAjax: function() {
-                e("-> initializeAfterAjax");
+                e("-> what are you looking for?");
                 try {
                     e("Doing");
                     var i = t.qtWebsiteObj.fn;
@@ -11593,7 +11593,7 @@ function(t) {
                 }
             },
             init: function() {
-                e("====== KENTHA INITIALIZATION =======");
+                e("====== MÚSICO LOCAL =======");
                 var i = t.qtWebsiteObj.fn;
                 t(".button-collapse").sideNav(),
                 t.qtWebsiteObj.body.on("click", ".qt-closesidenav", (function(e) {

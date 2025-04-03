@@ -21,9 +21,9 @@ $(document).ready(function() {
 
 			title:"Cro Magnon Man",
 
-			mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
 
 		},
 
@@ -31,9 +31,9 @@ $(document).ready(function() {
 
 			title:"Stirring of a Fool",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
 
 		},
 
@@ -41,9 +41,9 @@ $(document).ready(function() {
 
 			title:"Your Face",
 
-			mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
 
 		},
 
@@ -51,9 +51,9 @@ $(document).ready(function() {
 
 			title:"Cyber Sonnet",
 
-			mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
 
 		},
 
@@ -61,9 +61,9 @@ $(document).ready(function() {
 
 			title:"Tempered Song",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
 
 		},
 
@@ -71,9 +71,9 @@ $(document).ready(function() {
 
 			title:"Hidden",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
 
 		},
 
@@ -81,9 +81,9 @@ $(document).ready(function() {
 
 			title:"Lentement",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
 
 		},
 
@@ -91,9 +91,9 @@ $(document).ready(function() {
 
 			title:"Lismore",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
 
 		},
 
@@ -101,9 +101,9 @@ $(document).ready(function() {
 
 			title:"The Separation",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-05-The-separation.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-05-The-separation.ogg"
 
 		},
 
@@ -111,9 +111,9 @@ $(document).ready(function() {
 
 			title:"Beside Me",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-06-Beside-me.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-06-Beside-me.ogg"
 
 		},
 
@@ -121,9 +121,9 @@ $(document).ready(function() {
 
 			title:"Bubble",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
 
 		},
 
@@ -133,9 +133,9 @@ $(document).ready(function() {
 
 			title:"Partir",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
 
 		},
 
@@ -143,9 +143,9 @@ $(document).ready(function() {
 
 			title:"Thin Ice",
 
-			mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
+			mp3:"https://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
 
-			oga:"http://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
+			oga:"https://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
 
 		}
 
@@ -199,9 +199,9 @@ $(document).ready(function() {
 
                 title:"<span>01.</span> Afrojack - Lionheart (Original Mix)", // track title
 
-                mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",// mp3 path
+                mp3:"https://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",// mp3 path
 
-                oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg",// oga path
+                oga:"https://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg",// oga path
 
                 duration: '5:12'// duration time in playlist
 
@@ -213,9 +213,9 @@ $(document).ready(function() {
 
                 title:"<span>02.</span> Divine X - Together (audiobotz Remix)",
 
-                mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg",
 
                 duration: '4:22'
 
@@ -227,9 +227,9 @@ $(document).ready(function() {
 
                 title:"<span>03.</span> Dwayne DJ Bravo - Champion",
 
-                mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg",
 
                 duration: '4:36'
 
@@ -241,9 +241,9 @@ $(document).ready(function() {
 
                 title:"<span>04.</span> LaRoxx Project - Sunshine Love",
 
-                mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 duration: '2:51'
 
@@ -255,9 +255,9 @@ $(document).ready(function() {
 
                 title:"<span>05.</span> Love You Like A Love Song",
 
-                mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 duration: '3:12'
 
@@ -269,9 +269,9 @@ $(document).ready(function() {
 
                 title:"<span>06.</span> One More Night",
 
-                mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 duration: '4:47'
 
@@ -283,9 +283,9 @@ $(document).ready(function() {
 
                 title:"<span>07.</span> Fun ft. Chris Brown",
 
-                mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 duration: '4:00'
 
@@ -297,9 +297,9 @@ $(document).ready(function() {
 
                 title:"<span>08.</span> Part Of Me",
 
-                mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 duration: '5:27'
 
@@ -311,9 +311,9 @@ $(document).ready(function() {
 
                 title:"<span>09.</span> This Is Love ft. Eva Simons",
 
-                mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 duration: '4:10'
 
@@ -325,9 +325,9 @@ $(document).ready(function() {
 
                 title:"<span>10.</span> Hall of Fame ft. will.i.am",
 
-                mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 duration: '5:30'
 
@@ -413,9 +413,9 @@ $(document).ready(function() {
 
                 $(this).jPlayer("setMedia", {
 
-                    mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                    mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                    oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                    oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 });
 
@@ -433,9 +433,9 @@ $(document).ready(function() {
 
                 $(this).jPlayer("setMedia", {
 
-                    mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+                    mp3:"https://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
 
-                    oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
+                    oga:"https://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
 
                 });
 
@@ -453,9 +453,9 @@ $(document).ready(function() {
 
                 $(this).jPlayer("setMedia", {
 
-                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
+                    mp3:"https://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
 
-                    oga:"http://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
+                    oga:"https://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
 
                 });
 
@@ -473,9 +473,9 @@ $(document).ready(function() {
 
                 $(this).jPlayer("setMedia", {
 
-                    mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                    mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                    oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                    oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 });
 
@@ -493,9 +493,9 @@ $(document).ready(function() {
 
                 $(this).jPlayer("setMedia", {
 
-                    mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+                    mp3:"https://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
 
-                    oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
+                    oga:"https://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
 
                 });
 
@@ -513,9 +513,9 @@ $(document).ready(function() {
 
                 $(this).jPlayer("setMedia", {
 
-                    mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
+                    mp3:"https://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
 
-                    oga:"http://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
+                    oga:"https://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
 
                 });
 
@@ -533,9 +533,9 @@ $(document).ready(function() {
 
                 $(this).jPlayer("setMedia", {
 
-                    mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+                    mp3:"https://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
 
-                    oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
+                    oga:"https://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
 
                 });
 

@@ -1143,7 +1143,7 @@ function(t) {
                                 l.percentToPxWidth = I.lastPercentToPxWidth,
                                 l.percentToPxHeight = I.lastPercentToPxHeight;
                             else {
-                                var c = o(s).isSVG ? i.createElementNS("http://www.w3.org/2000/svg", "rect") : i.createElement("div");
+                                var c = o(s).isSVG ? i.createElementNS("https://www.w3.org/2000/svg", "rect") : i.createElement("div");
                                 y.init(c),
                                 t.myParent.appendChild(c),
                                 d.each(["overflow", "overflowX", "overflowY"], (function(t, e) {
@@ -6037,7 +6037,7 @@ function(t, e) {
                 "font-weight": 400,
                 gradient: 0,
                 height: 0,
-                href: "http://raphaeljs.com/",
+                href: "https://raphaeljs.com/",
                 "letter-spacing": 0,
                 opacity: 1,
                 path: "M0,0",
@@ -6139,7 +6139,7 @@ function(t, e) {
             }
             ;
             if (e._g = C,
-            e.type = C.win.SVGAngle || C.doc.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1") ? "SVG" : "VML",
+            e.type = C.win.SVGAngle || C.doc.implementation.hasFeature("https://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1") ? "SVG" : "VML",
             "VML" == e.type) {
                 var vt, gt = C.doc.createElement("div");
                 if (gt.innerHTML = '<v:shape adj="1"/>',
@@ -8668,7 +8668,7 @@ function(t, e) {
                   , u = t.eve
                   , d = ""
                   , h = " "
-                  , p = "http://www.w3.org/1999/xlink"
+                  , p = "https://www.w3.org/1999/xlink"
                   , f = {
                     block: "M5,0 0,2.5 5,5z",
                     classic: "M5,0 0,2.5 5,5 3.5,3 3.5,2z",
@@ -8687,7 +8687,7 @@ function(t, e) {
                         r)
                             r[e](o) && ("xlink:" == o.substring(0, 6) ? n.setAttributeNS(p, o.substring(6), i(r[o])) : n.setAttribute(o, i(r[o])));
                     else
-                        (n = t._g.doc.createElementNS("http://www.w3.org/2000/svg", n)).style && (n.style.webkitTapHighlightColor = "rgba(0,0,0,0)");
+                        (n = t._g.doc.createElementNS("https://www.w3.org/2000/svg", n)).style && (n.style.webkitTapHighlightColor = "rgba(0,0,0,0)");
                     return n
                 }
                   , m = function(e, r) {
@@ -9582,8 +9582,8 @@ function(t, e) {
                         height: s = s || 342,
                         version: 1.1,
                         width: o = o || 512,
-                        xmlns: "http://www.w3.org/2000/svg",
-                        "xmlns:xlink": "http://www.w3.org/1999/xlink"
+                        xmlns: "https://www.w3.org/2000/svg",
+                        "xmlns:xlink": "https://www.w3.org/1999/xlink"
                     }),
                     1 == i ? (l.style.cssText = c + "position:absolute;left:" + n + "px;top:" + r + "px",
                     t._g.doc.body.appendChild(l),

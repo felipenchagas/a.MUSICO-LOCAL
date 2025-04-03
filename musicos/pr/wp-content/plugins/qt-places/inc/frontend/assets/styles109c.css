@@ -274,7 +274,7 @@
         opacity: 1;
         /* $qt-button-background */
         background-color: #2196f3; }
-  .qtPlaces-container img[src*="http://maps.gstatic.com/mapfiles/google_white"] {
+  .qtPlaces-container img[src*="https://maps.gstatic.com/mapfiles/google_white"] {
     display: none; }
   .qtPlaces-container a {
     box-shadow: none !important;

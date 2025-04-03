@@ -1,5 +1,5 @@
 /* Simple JavaScript Inheritance
- * By John Resig http://ejohn.org/
+ * By John Resig https://ejohn.org/
  * MIT Licensed.
  */
 // Inspired by base2 and Prototype
@@ -74,7 +74,7 @@
 
 	/** Abstract base class for collection plugins v1.0.1.
 		Written by Keith Wood (kbwood{at}iinet.com.au) December 2013.
-		Licensed under the MIT (http://keith-wood.name/licence.html) license.
+		Licensed under the MIT (https://keith-wood.name/licence.html) license.
 		@module $.JQPlugin
 		@abstract */
 	JQClass.classes.JQPlugin = JQClass.extend({

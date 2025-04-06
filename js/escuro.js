@@ -10,6 +10,16 @@ document.addEventListener('DOMContentLoaded', function () {
     if (toggleButton) {
         toggleButton.addEventListener('click', function () {
             // Alterna a classe 'dark-mode' no <body>
+
+<!-- Botão e Balão -->
+<a href="https://wa.me/5541992760819" class="zap-glass" target="_blank" aria-label="Fale com um advogado">
+   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+</a>
+<div class="zap-msg-bubble">💬 Precisa de ajuda jurídica?<br><strong>Fale com um advogado agora mesmo!</strong></div>
+      <!-- Botão e Balão -->
+<a href="https://wa.me/5541992760819" class="zap-glass" target="_blank" aria-label="Fale com um advogado">
+   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+</a><div class="zap-msg-bubble">💬 Precisa de ajuda jurídica?<br><strong>Fale com um advogado agora mesmo!</strong></div>
             document.body.classList.toggle('dark-mode');
 
             // Salva o estado no localStorage

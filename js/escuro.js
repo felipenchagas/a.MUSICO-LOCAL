@@ -1,25 +1,19 @@
-// Verifica o estado armazenado no localStorage ao carregar a página
-if (localStorage.getItem('dark-mode') === 'true') {
-    document.body.classList.add('dark-mode');
+// Enable dark mode based on saved preference
+function applySavedDarkMode() {
+    if (localStorage.getItem('dark-mode') === 'true') {
+        document.body.classList.add('dark-mode');
+    }
 }
 
-// Adiciona o evento de clique ao botão
-document.addEventListener('DOMContentLoaded', function () {
+// Register button click handler to toggle dark mode
+function registerDarkModeToggle() {
     const toggleButton = document.getElementById('toggle-dark-mode');
+<<<<<<< HEAD
 
     if (toggleButton) {
         toggleButton.addEventListener('click', function () {
             // Alterna a classe 'dark-mode' no <body>
 
-<!-- Botão e Balão -->
-<a href="https://wa.me/5541992760819" class="zap-glass" target="_blank" aria-label="Fale com um advogado">
-   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
-</a>
-<div class="zap-msg-bubble">💬 Precisa de ajuda jurídica?<br><strong>Fale com um advogado agora mesmo!</strong></div>
-      <!-- Botão e Balão -->
-<a href="https://wa.me/5541992760819" class="zap-glass" target="_blank" aria-label="Fale com um advogado">
-   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
-</a><div class="zap-msg-bubble">💬 Precisa de ajuda jurídica?<br><strong>Fale com um advogado agora mesmo!</strong></div>
             document.body.classList.toggle('dark-mode');
 
             // Salva o estado no localStorage
@@ -31,5 +25,21 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     } else {
         console.error('Botão com ID "toggle-dark-mode" não encontrado.');
+=======
+    if (!toggleButton) {
+        console.error('Bot\xC3\xA3o com ID "toggle-dark-mode" n\xC3\xA3o encontrado.');
+        return;
+>>>>>>> origin/main
     }
+
+    toggleButton.addEventListener('click', function () {
+        document.body.classList.toggle('dark-mode');
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        localStorage.setItem('dark-mode', isDarkMode);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    applySavedDarkMode();
+    registerDarkModeToggle();
 });

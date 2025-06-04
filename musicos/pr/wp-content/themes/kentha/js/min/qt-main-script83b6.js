@@ -6210,7 +6210,15 @@ function(t, e) {
                     var i, n = /^\s+|\s+$/g;
                     try {
                         var o = new ActiveXObject("htmlfile");
+
                         o.write("<body>"),
+
+
+                        o.write("<body>
+
+
+                        o.write("<body>");
+     main
 
                         o.close(),
                         i = o.body

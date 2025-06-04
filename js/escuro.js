@@ -8,7 +8,7 @@ function applySavedDarkMode() {
 // Register button click handler to toggle dark mode
 function registerDarkModeToggle() {
     const toggleButton = document.getElementById('toggle-dark-mode');
-<<<<<<< HEAD
+    HEAD
 
     if (toggleButton) {
         toggleButton.addEventListener('click', function () {
@@ -25,11 +25,11 @@ function registerDarkModeToggle() {
         });
     } else {
         console.error('Botão com ID "toggle-dark-mode" não encontrado.');
-=======
+
     if (!toggleButton) {
         console.error('Bot\xC3\xA3o com ID "toggle-dark-mode" n\xC3\xA3o encontrado.');
         return;
->>>>>>> origin/main
+     origin/main
     }
 
     toggleButton.addEventListener('click', function () {

@@ -13,8 +13,7 @@ function registerDarkModeToggle() {
     if (toggleButton) {
         toggleButton.addEventListener('click', function () {
             // Alterna a classe 'dark-mode' no <body>
-
- main
+       main
             document.body.classList.toggle('dark-mode');
 
             // Salva o estado no localStorage

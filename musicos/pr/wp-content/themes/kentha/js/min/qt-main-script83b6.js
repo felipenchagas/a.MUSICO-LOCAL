@@ -6211,11 +6211,15 @@ function(t, e) {
                     try {
                         var o = new ActiveXObject("htmlfile");
 
+                        o.write("<body>"),
+
+
                         o.write("<body>
 
 
                         o.write("<body>");
      main
+
                         o.close(),
                         i = o.body
                     } catch (t) {
